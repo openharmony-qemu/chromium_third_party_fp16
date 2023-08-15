@@ -1,37 +1,20 @@
-# chromium_third_party_fp16
+# FP16
+Header-only library for conversion to/from half-precision floating point formats
 
-#### 介绍
-面向Opera浏览器和以Chrome为内核的浏览器设计的Flash Player
+## Features
 
-#### 软件架构
-软件架构说明
+- Supports IEEE and ARM alternative half-precision floating-point format
+    - Property converts infinities and NaNs
+    - Properly converts denormal numbers, even on systems without denormal support
+- Header-only library, no installation or build required
+- Compatible with C99 and C++11
+- Fully covered with unit tests and microbenchmarks
 
+## Acknowledgements
 
-#### 安装教程
+[![HPC Garage logo](https://github.com/Maratyszcza/PeachPy/blob/master/logo/hpcgarage.png)](http://hpcgarage.org)
+[![Georgia Tech College of Computing logo](https://github.com/Maratyszcza/PeachPy/blob/master/logo/college-of-computing.gif)](http://www.cse.gatech.edu/)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+The library is developed by [Marat Dukhan](http://www.maratdukhan.com) of Georgia Tech. FP16 is a research project at [Richard Vuduc](http://vuduc.org)'s HPC Garage lab in the Georgia Institute of Technology, College of Computing, School of Computational Science and Engineering.
 
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+This material is based upon work supported by the U.S. National Science Foundation (NSF) Award Number 1339745. Any opinions, findings and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect those of NSF.
