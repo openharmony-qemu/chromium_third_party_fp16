@@ -1,0 +1,10 @@
+[
+    {
+        "Name": "chromium_third_party_fp16",                   # 上游开源软件名全称
+        "License":        # 上游开源软件中包含的许可证信息
+        "License File": "LICENSE.TXT"     # 许可证所在文件路径
+        "Version Number": "4dfe081cf6bcd15db339cf2680b9281b8451eeb3",
+        "Upstream URL": "https://chromium.googlesource.com/external/github.com/Maratyszcza/FP16.git@4dfe081cf6bcd15db339cf2680b9281b8451eeb3",   # 上游软件包发布地址
+        "Description": "面向Opera浏览器和以Chrome为内核的浏览器设计的Flash Player"           # 开源软件功能描述
+    }
+]
