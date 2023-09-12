@@ -1,6 +1,6 @@
 [
     {
-        "Name": "chromium_third_party_fp16",                   # 上游开源软件名全称
+        "Name": "fp16",                   # 上游开源软件名全称
         "License":        # 上游开源软件中包含的许可证信息
         "License File": "LICENSE"     # 许可证所在文件路径
         "Version Number": "4dfe081cf6bcd15db339cf2680b9281b8451eeb3",
