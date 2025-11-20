@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "fp16",
+        "License": "MIT" ,
+        "License File": "LICENSE",
+        "Version Number": "0a92994d729ff76a58f692d3028ca1b64b145d91",
+        "Owner": "huamengzheng@huawei.com", 
+        "Upstream URL": "https://chromium.googlesource.com/external/github.com/Maratyszcza/FP16.git@0a92994d729ff76a58f692d3028ca1b64b145d91",
+        "Description": "面向Opera浏览器和以Chrome为内核的浏览器设计的Flash Player"
+    }
+]
